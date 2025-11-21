@@ -2,6 +2,8 @@
 
 ## QUESTION:
 You’re creating a cross-platform UI tool using the Abstract Factory pattern. Implement factories to create Button and Checkbox for "dark" and "light" themes. Let the user choose the theme, then generate UI components and display their types
+
+
 <img width="357" height="123" alt="image" src="https://github.com/user-attachments/assets/ee651ca7-9034-4186-8aa2-296b64d2a5d6" />
 
 
@@ -130,5 +132,6 @@ public class prog {
 
 ## RESULT:
 The program successfully implemented the Abstract Factory design pattern in Java, creating UI components based on selected theme using appropriate factory classes.
+
 
 
