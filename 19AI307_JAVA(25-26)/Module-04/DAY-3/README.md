@@ -2,6 +2,8 @@
 
 ## QUESTION:
 Implement a system where a Library contains multiple Book objects. Each Book is created inside the Library. Books can't exist independently (Composition).
+
+
 <img width="463" height="277" alt="image" src="https://github.com/user-attachments/assets/f07362a4-b64b-4afb-b05a-f7e293a7c5e0" />
 
 ## AIM:
@@ -33,11 +35,9 @@ To implement the concept of Composition in Java by creating a Library class that
 
 ## PROGRAM:
  ```
-/*
 Program to implement a Composition Concepts in Java
 Developed by: Bala Sathiesh CS
 RegisterNumber: 212222040022  
-*/
 ```
 
 ## SOURCE CODE:
@@ -105,5 +105,6 @@ class Library {
 
 ## RESULT:
 The program successfully demonstrated composition in Java, where the Library class creates and owns Book objects, ensuring they do not exist independently.
+
 
 
