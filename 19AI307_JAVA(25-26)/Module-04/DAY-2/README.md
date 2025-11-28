@@ -55,7 +55,6 @@ class MasterPowerSwitch {
     private static MasterPowerSwitch instance = null; 
     private int accessCount = 0; 
 
-    // private constructor → prevents outside object creation
     private MasterPowerSwitch() {}
 
     public static MasterPowerSwitch getInstance() {
@@ -96,6 +95,7 @@ public class prog {
 
 ## RESULT:
 The program successfully demonstrated SOLID principles by implementing the Singleton design pattern, ensuring only one instance of the master power switch exists, while maintaining a common access count across all users.
+
 
 
 
