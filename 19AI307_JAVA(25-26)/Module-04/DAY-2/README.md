@@ -52,13 +52,12 @@ RegisterNumber: 212222040022
 import java.util.*;
 
 class MasterPowerSwitch {
-    private static MasterPowerSwitch instance = null; // single instance
-    private int accessCount = 0; // shared counter
+    private static MasterPowerSwitch instance = null; 
+    private int accessCount = 0; 
 
     // private constructor → prevents outside object creation
     private MasterPowerSwitch() {}
 
-    // static method to return the single instance
     public static MasterPowerSwitch getInstance() {
         if (instance == null) {
             instance = new MasterPowerSwitch();
@@ -66,7 +65,6 @@ class MasterPowerSwitch {
         return instance;
     }
 
-    // method to increment and return access count
     public int logAccess() {
         accessCount++;
         return accessCount;
@@ -98,5 +96,6 @@ public class prog {
 
 ## RESULT:
 The program successfully demonstrated SOLID principles by implementing the Singleton design pattern, ensuring only one instance of the master power switch exists, while maintaining a common access count across all users.
+
 
 
